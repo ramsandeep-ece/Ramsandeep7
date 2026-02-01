@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ram Sandeep | Pega Developer</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin: 12px 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #0a58ca;
+}
+
+/* Sections */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0a58ca, #003f8f);
+  color: #ffffff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* Cards */
+.card {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* Skills */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-item {
+  background: #e9f1ff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Contact */
+.contact-links a {
+  display: inline-block;
+  margin: 10px;
+  color: #0a58ca;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background: #1f2933;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <ul>
+    <li><a href="#hero">Hero</a></li>
+    <li><a href="#about">About Me</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience/Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero section with your name and title -->
+<section id="hero" class="hero">
+  <h1>Ram Sandeep Annadurai</h1>
+  <p>Pega Senior System Architect</p>
+</section>
+
+<!-- About Me section -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>
+      Certified Pega Senior System Architect with 3.5+ years of experience in designing,
+      developing, and maintaining scalable BPM and workflow automation solutions using
+      Pega PRPC and CLM/KYC frameworks. Experienced in Pega Constellation UI,
+      GenAI-powered features, and blueprint-driven design to deliver customer-centric
+      enterprise applications.
+    </p>
+  </div>
+</section>
+
+<!-- Skills section -->
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill-item">Pega PRPC 7.x, 8.x</div>
+    <div class="skill-item">Pega Infinity 23 & 24</div>
+    <div class="skill-item">CLM & KYC Frameworks</div>
+    <div class="skill-item">Pega Constellation</div>
+    <div class="skill-item">REST & SOAP APIs</div>
+    <div class="skill-item">Decision Rules & Data Pages</div>
+    <div class="skill-item">Deployment Manager</div>
+    <div class="skill-item">SQL, HTML, CSS</div>
+    <div class="skill-item">Agile & Jira</div>
+  </div>
+</section>
+
+<!-- Experience/Projects section -->
+<section id="experience">
+  <h2>Experience/Projects</h2>
+
+  <div class="card">
+    <h3>Systems Engineer – Tata Consultancy Services</h3>
+    <p><strong>July 2022 – Present | Chennai</strong></p>
+    <p>
+      Working on enterprise Pega applications for global banking clients.
+      Delivered multiple full-cycle projects involving requirements analysis,
+      design, development, testing, deployment, and production support.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Corporate & Investment Banking Onboarding – Lloyds Bank</h3>
+    <p>
+      Lead Developer for Pega CLM/KYC solutions automating end-to-end client onboarding,
+      reviews, and offboarding. Integrated external systems using REST/SOAP APIs and
+      reduced onboarding cycle time while ensuring regulatory compliance.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Business Banking & Finance Assistance – Lloyds Bank</h3>
+    <p>
+      Developed rule-driven case management and decisioning solutions to streamline
+      finance assistance workflows, improve approvals, and enhance reporting
+      and compliance tracking.
+    </p>
+  </div>
+
+</section>
+
+<!-- Education section -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <p>
+      Bachelor of Engineering in Electronics and Communication<br>
+      Sri Sai Ram Institute of Technology<br>
+      August 2018 – June 2022
+    </p>
+  </div>
+</section>
+
+<!-- Contact section with social links -->
+<section id="contact">
+  <h2>Contact</h2>
+  <div class="card contact-links">
+    <a href="mailto:ramsandeep1807@gmail.com">Email</a>
+    <a href="https://linkedin.com/in/ramsandeep" target="_blank">LinkedIn</a>
+    <a href="tel:+919789604033">Phone</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Ram Sandeep Annadurai. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
